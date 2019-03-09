@@ -266,6 +266,7 @@ For documentation on the latest development code see the [documentation index][d
 * [tcp_listener](./plugins/inputs/socket_listener)
 * [teamspeak](./plugins/inputs/teamspeak)
 * [tengine](./plugins/inputs/tengine)
+* [thermal_zone](./plugins/inputs/thermal_zone)
 * [tomcat](./plugins/inputs/tomcat)
 * [twemproxy](./plugins/inputs/twemproxy)
 * [udp_listener](./plugins/inputs/socket_listener)
