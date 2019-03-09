@@ -215,8 +215,6 @@ func (p *PrometheusClient) Connect() error {
 		return err
 	}
 
-	p.url = createURL(tlsConfig, listener, p.Path)
-
 	go func() {
 		err := p.server.Serve(listener)
 		if err != nil && err != http.ErrServerClosed {
